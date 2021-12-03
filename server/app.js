@@ -8,7 +8,7 @@ import cors from '@koa/cors';
 
 /*timingLogger, exceptionHandler, jwtConfig,*/
 import { exceptionHandler, timingLogger } from "./utils/middlewares.js";
-import { initWebSocketServer } from "./utils/webSocketServer.js";
+import { initWebSocketServer } from "./utils/web-socket-server.js";
 import { router as albumRouter } from './music/router.js';
 import { router as userRouter } from './user/router.js';
 

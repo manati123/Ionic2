@@ -1,6 +1,6 @@
 import Router from 'koa-router';
 
-import { broadcast } from "../utils/webSocketServer.js";
+import { broadcast } from "../utils/web-socket-server.js";
 import albumStore from './store.js';
 
 export const router = new Router();
