@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server side of the project",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manati123/Ionic2.git"
+  },
+  "author": "silvian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manati123/Ionic2/issues"
+  },
+  "homepage": "https://github.com/manati123/Ionic2#readme",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-jwt": "^4.0.3",
+    "koa-router": "^10.1.1",
+    "nedb-promise": "^2.0.1",
+    "ws": "^8.3.0"
+  }
+}
